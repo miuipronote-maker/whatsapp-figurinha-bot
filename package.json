@@ -1,0 +1,19 @@
+
+{
+  "name": "whatsapp-figurinha-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot de WhatsApp que transforma vídeos e links compatíveis em vídeos quadrados com áudio.",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
