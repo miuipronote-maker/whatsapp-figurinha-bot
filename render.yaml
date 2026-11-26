@@ -1,0 +1,8 @@
+
+services:
+  - type: worker
+    name: whatsapp-figurinha-bot
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
